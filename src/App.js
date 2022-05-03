@@ -9,6 +9,7 @@ import { login, logout, selectUser } from "./features/userSlice";
 import ProfileScreen from "./screens/ProfileScreen";
 
 function App() {
+  // console.log(process.env.REACT_APP_API_KEY);
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
 
